@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/geist.woff2") format("woff");
+}
+
+html,
+body {
+  @apply text-white bg-neutral-800 overflow-x-hidden;
+}
